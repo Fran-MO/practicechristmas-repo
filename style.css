@@ -1,0 +1,31 @@
+[class*="col"] {
+  padding: 1rem;
+  background-color: #33b5e5;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+.container {
+  display: grid;
+}
+
+/* .xmas-container { */
+  /* display: inline-grid;
+  grid-template-columns: 30px 200px auto 100px;
+}
+
+.xmas-box-1 {
+  background-color: lightblue;
+}
+
+.xmas-box-2 {
+  background-color: lightcoral;
+}
+
+.xmas-box-3 {
+  background-color: lightseagreen;
+}
+
+.xmas-box-4 {
+  background-color: blue;
+} */
