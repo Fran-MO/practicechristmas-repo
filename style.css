@@ -1,31 +1,74 @@
-[class*="col"] {
-  padding: 1rem;
-  background-color: #33b5e5;
-  border: 2px solid #fff;
-  color: #fff;
-}
-
 .container {
   display: grid;
+  grid-template: repeat(2, 350px) / repeat(2, 4fr);
+  grid-gap: 3px;
 }
 
-/* .xmas-container { */
-  /* display: inline-grid;
-  grid-template-columns: 30px 200px auto 100px;
+.snowman {
+  background-color: #c4ebff;
+  position: relative;
 }
 
-.xmas-box-1 {
-  background-color: lightblue;
+.snowflake1 {
+  background-color: whitesmoke;
 }
 
-.xmas-box-2 {
-  background-color: lightcoral;
+.snowflake2 {
+  background-color: whitesmoke;
 }
 
-.xmas-box-3 {
-  background-color: lightseagreen;
+.xmas-tree {
+  background-color: #c4ebff;
 }
 
-.xmas-box-4 {
-  background-color: blue;
-} */
+.face {
+  background-color: white;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  position: relative;
+  top: 40px;
+  left: 150px;
+}
+
+.eye-l, .eye-r {
+  background-color: black;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  position: relative;
+}
+
+.eye-l {
+  top: 35px;
+  left: 30px;
+}
+
+.eye-r {
+  top: 25px;
+  left: 60px;
+}
+
+.nose {
+  width: 0;
+  height: 0;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 25px solid #f7880f;
+  position: relative;
+  top: 36px;
+  left: 44px;
+}
+
+.hat {
+
+}
+.body {
+  background-color: white;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  position: relative;
+  top: 40px;
+  left: 128px;
+}
