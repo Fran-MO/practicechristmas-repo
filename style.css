@@ -27,7 +27,7 @@
   width: 100px;
   border-radius: 50%;
   position: relative;
-  top: 40px;
+  top: 57px;
   left: 150px;
 }
 
@@ -61,7 +61,25 @@
 }
 
 .hat {
+  background-color: black;
+  height: 10px;
+  width: 80px;
+  position: relative;
+  bottom: 50px;
+  left: 25px;
+  border-radius: 5px;
+  transform: rotate(20deg);
+}
 
+.top-hat {
+  height: 0;
+  width: 40px;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 43px solid black;
+  position: relative;
+  bottom: 40px;
+  left: 10px;
 }
 .body {
   background-color: white;
@@ -69,6 +87,6 @@
   width: 150px;
   border-radius: 50%;
   position: relative;
-  top: 40px;
+  top: 55px;
   left: 128px;
 }
